@@ -9,8 +9,21 @@
 /* Hero section, footer background: #2F303A; */
 /* not-active button background #F5F4FA */
 
+:root {
+  --main-black-color: #212121;
+  --active-link: #2196f3;
+  --paragraphes-and-contacts: #757575;
+  --logo-black: #000000;
+  --main-white: #ffffff;
+  --footer-head-color-link-tel: rgba(255, 255, 255, 0.6);
+  --hero-footer-background: #2f303a;
+  --buuton-shodow: rgba(0, 0, 0, 0.15);
+  --background-button: #f5f4fa;
+}
+
 body {
   font-family: Roboto;
+  color: #212121;
 }
 
 a {
@@ -58,7 +71,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: var(--logo-black);
 }
 
 .text-logo-first-three-letter {
@@ -76,7 +89,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--active-link);
 }
 
 .not-active-link {
@@ -87,10 +100,10 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--main-black-color);
 }
 .not-active-link:hover {
-  color: #2196f3;
+  color: var(--active-link);
 }
 
 .not-active-email-tel {
@@ -101,11 +114,15 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--paragraphes-and-contacts);
 }
 
 .not-active-email-tel:hover {
-  color: #2196f3;
+  color: var(--active-link);
+}
+
+.not-active-email-tel:focus {
+  color: var(--active-link);
 }
 
 .hero-title {
@@ -120,7 +137,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .hero-background {
@@ -130,15 +147,15 @@ ul {
   left: 0px;
   top: 80px;
 
-  background: #2f303a;
+  background: var(--hero-footer-background);
 }
 
 .button-active {
   width: 200px;
   height: 50px;
 
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--active-link);
+  box-shadow: 0px 4px 4px var(--buuton-shodow);
   border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
@@ -152,7 +169,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .projects h3 {
@@ -165,12 +182,12 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--main-black-color);
 }
 
 .projects p {
   font-family: Roboto;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -178,20 +195,20 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--paragraphes-and-contacts);
 }
 
 /* Button on the portfolio page */
 
 .button-projects li button:hover {
-  background-color: #2196f3;
+  background-color: var(--active-link);
   cursor: pointer;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .button-projects li button {
-  background-color: #f5f4fa;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--background-button);
+  filter: drop-shadow(0px 4px 4px var(--buuton-shodow));
   border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
@@ -204,7 +221,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-black-color);
 }
 
 .button-all {
@@ -240,7 +257,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .our-features {
@@ -252,7 +269,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--main-black-color);
 }
 
 .title-section-our-features {
@@ -261,7 +278,7 @@ ul {
 
 .text-features > li > p {
   font-family: Roboto;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -269,7 +286,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--paragraphes-and-contacts);
 }
 
 .h2-title-main-page {
@@ -281,7 +298,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-black-color);
 }
 
 .team.li.h3 {
@@ -295,12 +312,12 @@ ul {
   /* text-align: center; */
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-black-color);
 }
 
 .team > li > p {
   font-family: Roboto;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -309,7 +326,7 @@ ul {
   /* text-align: center; */
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--paragraphes-and-contacts);
 }
 
 address {
@@ -317,7 +334,7 @@ address {
 }
 address p {
   font-family: Roboto;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -325,7 +342,7 @@ address p {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 address a {
@@ -338,7 +355,7 @@ address a {
 
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-head-color-link-tel);
 }
 
 .footer-background {
@@ -347,7 +364,7 @@ address a {
   left: 0px;
   top: 2097px;
 
-  background: #2f303a;
+  background: var(--hero-footer-background);
 }
 
 .text-logo-last-letter {
@@ -360,5 +377,5 @@ address a {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--main-white);
 }
