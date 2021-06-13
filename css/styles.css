@@ -204,13 +204,13 @@ header .not-active-email-tel {
 
 /* Button on the portfolio page */
 
-.button-projects li button:hover {
+.button-projects button:hover {
   background-color: var(--active-link);
   cursor: pointer;
   color: var(--main-white);
 }
 
-.button-projects li button {
+.button-projects button {
   background-color: var(--background-button);
   filter: drop-shadow(0px 4px 4px var(--buuton-shodow));
   border-radius: 4px;
@@ -280,7 +280,7 @@ header .not-active-email-tel {
   display: none;
 }
 
-.text-features > li > p {
+.text-features p {
   font-family: Roboto;
   /* font-style: normal; */
   font-weight: normal;
@@ -305,12 +305,12 @@ header .not-active-email-tel {
   color: var(--main-black-color);
 }
 
-.team > li > h3 {
+.team h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;s
+  line-height: 1.18;
   /* identical to box height */
 
   /* text-align: center; */
@@ -319,7 +319,7 @@ header .not-active-email-tel {
   color: var(--main-black-color);
 }
 
-.team > li > p {
+.team p {
   font-family: Roboto;
   /* font-style: normal; */
   font-weight: normal;
