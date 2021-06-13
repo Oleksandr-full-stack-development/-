@@ -105,6 +105,7 @@ ul {
 .not-active-link:hover,
 .not-active-link:focus {
   color: var(--active-link);
+  outline: none;
 }
 
 .not-active-email-tel {
@@ -128,6 +129,7 @@ header .not-active-email-tel {
 
 .not-active-email-tel:focus {
   color: var(--active-link);
+  outline: none;
 }
 
 .hero-title {
@@ -210,6 +212,7 @@ header .not-active-email-tel {
   background-color: var(--active-link);
   cursor: pointer;
   color: var(--main-white);
+  outline: none;
 }
 
 .button-projects button {
