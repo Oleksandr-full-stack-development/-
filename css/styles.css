@@ -102,7 +102,8 @@ ul {
   text-decoration: none;
   color: var(--main-black-color);
 }
-.not-active-link:hover {
+.not-active-link:hover,
+.not-active-link:focus {
   color: var(--active-link);
 }
 
@@ -204,7 +205,8 @@ header .not-active-email-tel {
 
 /* Button on the portfolio page */
 
-.button-projects button:hover {
+.button-projects button:hover,
+.button-projects button:focus {
   background-color: var(--active-link);
   cursor: pointer;
   color: var(--main-white);
