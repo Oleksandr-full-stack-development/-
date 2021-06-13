@@ -43,9 +43,9 @@ ul {
   display: none;
 }
 
-.our-features {
+/* .our-features {
   display: none;
-}
+} */
 
 .title-filtr {
   display: none;
@@ -66,7 +66,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -84,7 +84,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -97,7 +97,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-black-color);
@@ -111,9 +111,13 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--footer-head-color-link-tel);
+}
+
+header .not-active-email-tel {
   color: var(--paragraphes-and-contacts);
 }
 
@@ -161,7 +165,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
 
   display: flex;
@@ -177,7 +181,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -190,7 +194,7 @@ ul {
   /* font-style: normal; */
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
@@ -214,7 +218,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   border-style: none;
   /* identical to box height, or 162% */
 
@@ -224,7 +228,7 @@ ul {
   color: var(--main-black-color);
 }
 
-.button-all {
+/* .button-all {
   width: 73px;
   height: 38px;
 }
@@ -246,13 +250,13 @@ ul {
 .button-marketing {
   width: 130px;
   height: 38px;
-}
+} */
 . .text-hero-button {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
 
   letter-spacing: 0.06em;
@@ -260,12 +264,12 @@ ul {
   color: var(--main-white);
 }
 
-.our-features {
+.our-features h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -281,7 +285,7 @@ ul {
   /* font-style: normal; */
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -294,19 +298,19 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--main-black-color);
 }
 
-.team.li.h3 {
+.team > li > h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;s
   /* identical to box height */
 
   /* text-align: center; */
@@ -320,7 +324,7 @@ ul {
   /* font-style: normal; */
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   /* identical to box height */
 
   /* text-align: center; */
@@ -337,7 +341,7 @@ address p {
   /* font-style: normal; */
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -350,7 +354,7 @@ address a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -372,7 +376,7 @@ address a {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
